@@ -552,6 +552,7 @@ public class UpdateManager implements IUpdateProxy {
 
             isGet = _XUpdate.isGet();
             isWifiOnly = _XUpdate.isWifiOnly();
+            isNeedCheckNetWork = _XUpdate.isNeedCheckNetwork();
             isAutoMode = _XUpdate.isAutoMode();
             apkCacheDir = _XUpdate.getApkCacheDir();
         }

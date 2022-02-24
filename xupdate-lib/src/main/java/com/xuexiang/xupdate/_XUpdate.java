@@ -204,6 +204,10 @@ public final class _XUpdate {
         return XUpdate.get().mIsWifiOnly;
     }
 
+    public static boolean isNeedCheckNetwork() {
+        return XUpdate.get().mIsNeedCheckNetWork;
+    }
+
     public static boolean isAutoMode() {
         return XUpdate.get().mIsAutoMode;
     }
