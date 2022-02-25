@@ -84,6 +84,7 @@ public class App extends Application {
                 .isGet(true)
                 //默认设置非自动模式，可根据具体使用配置
                 .isAutoMode(false)
+                .isNeedCheckNetwork(false)
                 //设置默认公共请求参数
                 .param("versionCode", UpdateUtils.getVersionCode(this))
                 .param("appKey", getPackageName())

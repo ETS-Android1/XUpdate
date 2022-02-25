@@ -647,6 +647,17 @@ public class UpdateManager implements IUpdateProxy {
         }
 
         /**
+         * 设置是否检测网络
+         *
+         * @param isNeedCheckNetWork
+         * @return this
+         */
+        public Builder isNeedCheckNetwork(boolean isNeedCheckNetWork) {
+            this.isNeedCheckNetWork = isNeedCheckNetWork;
+            return this;
+        }
+
+        /**
          * 设置版本更新检查器
          *
          * @param updateChecker 版本更新检查器
